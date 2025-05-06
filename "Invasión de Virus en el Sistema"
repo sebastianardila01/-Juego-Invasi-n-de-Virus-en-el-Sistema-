@@ -1,0 +1,64 @@
+# 🦠 Invasión de Virus en el Sistema
+
+> ¡Un juego original hecho en PSeInt donde eres un antivirus que lucha por salvar la red!
+
+## 🎮 Descripción
+
+_Invasión de Virus en el Sistema_ es un juego por consola desarrollado en PSeInt. El jugador controla un **antivirus** que debe moverse por una red informática (una matriz de 10x10) para eliminar virus antes de que se propaguen y tomen el control total. Cada turno cuenta: los virus se expanden, y tú decides si salvas el sistema… o lo dejas caer.
+
+## 🧠 ¿Cómo se juega?
+
+- Eres representado por la letra **`A`** (antivirus).
+- Los virus son **`V`** y se multiplican si no los eliminas a tiempo.
+- Hay firewalls **`X`** que ni tú ni los virus pueden atravesar.
+- Tu meta es **eliminar todos los virus** antes de que infecten más del **50%** de la red.
+
+### 🎯 Controles:
+
+| Tecla | Acción            |
+|-------|-------------------|
+| `W`   | Mover arriba      |
+| `A`   | Mover izquierda   |
+| `S`   | Mover abajo       |
+| `D`   | Mover derecha     |
+
+## 💡 Características
+
+- Virus con propagación automática
+- Firewall que bloquea movimiento
+- Victoria o derrota según condiciones del sistema
+- 100% jugable en consola PSeInt
+- Código comentado y organizado
+
+## ⚙️ Requisitos
+
+- [PSeInt](https://pseint.sourceforge.net/) instalado (recomendado versión actualizada)
+- Muchas ganas de salvar el sistema 😎
+
+## 🧠 Lógica del juego
+
+Cada turno:
+
+1. El jugador se mueve.
+2. Si pisa un virus, lo elimina.
+3. Todos los virus se propagan a celdas vecinas libres.
+4. Se calcula si el 50% de la red está infectada (si sí → pierdes).
+5. Si no hay virus → ganas.
+
+## 📁 Estructura del proyecto
+## 🛡️ Licencia
+
+MIT - Libre para compartir, modificar y dar créditos si te luces con esto.
+
+---
+
+## ✨ Autor
+
+Sebastián David Ardila Cuastumal  
+💻 Hecho con cariño y lógica en PSeInt.  
+
+---
+
+## ⭐ ¿Te gustó?
+
+¡Dale una estrella ⭐ al repo y compártelo con tus panas del SENA o del código!  
